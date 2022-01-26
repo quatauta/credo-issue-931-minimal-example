@@ -6,12 +6,7 @@ defmodule ExercismElixir.MixProject do
       app: :excercism_elixir,
       version: "0.1.0",
       elixir: "~> 1.13",
-      start_permanent: Mix.env() == :prod,
       deps: deps(),
-      build_path: ".cache/_build",
-      config_path: "config.exs",
-      deps_path: ".cache/deps",
-      elixirc_paths: Path.wildcard("*/lib"),
     ]
   end
 
