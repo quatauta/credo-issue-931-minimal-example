@@ -12,7 +12,7 @@ defmodule ExercismElixir.MixProject do
 
   defp deps do
     [
-      {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
+      {:credo, "~> 1.6.0", only: [:dev, :test], runtime: false}
     ]
   end
 end
