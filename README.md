@@ -6,7 +6,7 @@ This is a minimal exmaple to illustrate how Credo detects [`__MODULE__`](https:/
 
 Credo check Credo.Check.Consistency.UnusedVariableNames is supposed to warn about inconsistant naming of unused variables starting with `_`. In some situations, Credo.Check.Consistency.UnusedVariableNames detects [`__MODULE__`](https://hexdocs.pm/elixir/Kernel.SpecialForms.html) or other "meta variables/macros" as unused variable with inconsistant naming.
 
-```bash
+```console
 $ git clone https://github.com/quatauta/credo-issue-931-minimal-example.git
 $ mix deps.get
 $ mix credo --checks Credo.Check.Consistency.UnusedVariableNames
